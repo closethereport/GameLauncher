@@ -55,6 +55,43 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\D3.xaml.cs">
+      <DependentUpon>D3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HOTS.xaml.cs">
+      <DependentUpon>HOTS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HsPage.xaml.cs">
+      <DependentUpon>HsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OverwatchPage.xaml.cs">
+      <DependentUpon>OverwatchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SC.xaml.cs">
+      <DependentUpon>SC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SC2.xaml.cs">
+      <DependentUpon>SC2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\W3.xaml.cs">
+      <DependentUpon>W3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WowPage.xaml.cs">
+      <DependentUpon>WowPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\D3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HOTS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +104,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\OverwatchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SC2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\W3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WowPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,9 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
-    <Folder Include="View\Res\Background\" />
-    <Folder Include="View\Res\TopBackground\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="View\Res\Icons\Close.png" />
@@ -114,6 +168,26 @@
     <Resource Include="View\Res\Icons\sc2.png" />
     <Resource Include="View\Res\Icons\warcraaft3.png" />
     <Resource Include="View\Res\Icons\WOW.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Res\Background\MainDIABLO.png" />
+    <Resource Include="View\Res\Background\MainHOTS.png" />
+    <Resource Include="View\Res\Background\MainHS.png" />
+    <Resource Include="View\Res\Background\MainOW.png" />
+    <Resource Include="View\Res\Background\MainSC.png" />
+    <Resource Include="View\Res\Background\MainSC2.png" />
+    <Resource Include="View\Res\Background\MainW3.png" />
+    <Resource Include="View\Res\Background\MainWOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Res\TopBackground\TopDIABLO.png" />
+    <Resource Include="View\Res\TopBackground\TopHOTS.png" />
+    <Resource Include="View\Res\TopBackground\TopHS.png" />
+    <Resource Include="View\Res\TopBackground\TopOW.png" />
+    <Resource Include="View\Res\TopBackground\TopSC.png" />
+    <Resource Include="View\Res\TopBackground\TopSC2.png" />
+    <Resource Include="View\Res\TopBackground\TopW3.png" />
+    <Resource Include="View\Res\TopBackground\TopWOW.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
