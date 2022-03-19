@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace GameLauncher.View
 {
     /// <summary>
-    /// Логика взаимодействия для SC2.xaml
+    /// Логика взаимодействия для SC.xaml
     /// </summary>
-    public partial class SC2 : Page
+    public partial class ScPage : Page
     {
-        public SC2()
+        public ScPage()
         {
             InitializeComponent();
         }

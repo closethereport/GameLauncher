@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace GameLauncher.View
 {
     /// <summary>
-    /// Логика взаимодействия для HOTS.xaml
+    /// Логика взаимодействия для D3.xaml
     /// </summary>
-    public partial class HOTS : Page
+    public partial class DiabloPage : Page
     {
-        public HOTS()
+        public DiabloPage()
         {
             InitializeComponent();
         }
